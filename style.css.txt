@@ -1,0 +1,77 @@
+/* Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Arial', sans-serif;
+}
+
+/* Body */
+body {
+background: linear-gradient(to bottom right, #0f172a, #1e293b);
+color: white;
+line-height: 1.6;
+padding: 0 20px;
+}
+
+/* Header */
+header {
+text-align: center;
+padding: 80px 20px;
+}
+header h1 {
+font-size: 4rem;
+}
+header .highlight {
+color: #6366f1;
+}
+header p {
+margin-top: 20px;
+font-size: 1.2rem;
+color: #cbd5e1;
+}
+header .btn {
+display: inline-block;
+margin-top: 30px;
+padding: 15px 30px;
+background: #6366f1;
+color: white;
+text-decoration: none;
+border-radius: 25px;
+font-weight: bold;
+transition: 0.3s;
+}
+header .btn:hover {
+background: #4f46e5;
+}
+
+/* Features */
+#features {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+padding: 60px 0;
+}
+.feature {
+background: rgba(255, 255, 255, 0.05);
+border: 1px solid rgba(255,255,255,0.1);
+padding: 30px;
+border-radius: 20px;
+transition: 0.3s;
+}
+.feature:hover {
+transform: translateY(-5px);
+background: rgba(255, 255, 255, 0.1);
+}
+.feature h2 {
+color: #6366f1;
+margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+text-align: center;
+padding: 40px 0;
+font-size: 0.9rem;
+color: #94a3b8;
+}

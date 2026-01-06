@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pharma Nova</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Pharma <span class="highlight">Nova</span></h1>
+<p>AI-driven Pharmacology & Antibiotic Stewardship Platform</p>
+<a href="#features" class="btn">Explore Platform</a>
+</header>
+
+<section id="features">
+<div class="feature">
+<h2>AI-Integrated Pharmacology</h2>
+<p>Understand mechanisms, drug selection, and outcomes through AI-assisted logic.</p>
+</div>
+<div class="feature">
+<h2>Antibiotic Stewardship</h2>
+<p>Rational antibiotic use, resistance prevention, and clinical decision pathways.</p>
+</div>
+<div class="feature">
+<h2>Clinical Case Learning</h2>
+<p>Real-world scenarios with pharmacist vs AI decision comparisons.</p>
+</div>
+<div class="feature">
+<h2>Future-Ready Skills</h2>
+<p>Prepare for modern pharmacy roles beyond traditional curricula.</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Pharma Nova · Redefining Pharmacy Education</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

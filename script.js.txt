@@ -1,0 +1,5 @@
+// Smooth scroll for explore button
+document.querySelector('a.btn').addEventListener('click', function(e) {
+e.preventDefault();
+document.querySelector('#features').scrollIntoView({ behavior: 'smooth' });
+});
